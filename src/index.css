@@ -1,0 +1,35 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  background-color: #242424;
+  color: #ccc;
+}
+
+h1 {
+  background-color: #b18fc9;
+  color: #222;
+  margin: 0;
+  padding: 15px;
+}
+
+div {
+  text-align: center;
+}
+
+select {
+  margin: 15px;
+  padding: 8px;
+  border-radius: 12px;
+  font-size: 20px; 
+  background-color: #b18fc9;
+}
+
+.timezone {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 600px;
+  margin: 4px auto;
+  padding: 4px;
+  border-bottom: 1px solid #b18fc9;
+}
