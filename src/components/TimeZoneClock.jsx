@@ -20,6 +20,7 @@ const TimeZoneClock = ({timeZone}) => {
 
         }, 1000)
 
+        return () => clearInterval(intervalId);
     }, [timeZone])
 
   return (
